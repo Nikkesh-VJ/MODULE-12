@@ -1,0 +1,41 @@
+
+# ExNo: 12.3 Queue using linked list (Display, Peek and Pop)
+
+- **Name:** Nikkesh V  
+- **Registration Number:** 212222050042
+
+### Aim: To Type a python code to insert 3 elements. Also check and print the index value of the elements stored in the queue.
+
+### Algorithm:
+
+STEP 1: Start.
+
+STEP 2: Create an empty list called queue.
+
+STEP 3: Enqueue three elements into the queue using the append() method.
+
+STEP 4: Print the initial contents of the queue.
+
+STEP 5: Use a loop with enumerate() to display the index and corresponding element of each item in the queue.
+
+STEP 6: Stop.
+
+### Program:
+```
+queue = []
+
+queue.append('a')
+queue.append('b')
+queue.append('c')
+
+print('Initial queue: ' + str(queue))
+
+for index, value in enumerate(queue):
+    print(index, value)
+
+```
+### OUTPUT:
+
+![image](https://github.com/user-attachments/assets/99d705a5-df02-464e-bd3a-73b9ef3991d5)
+
+### Result: Thus, the given program is implemented and executed successfully .
