@@ -1,0 +1,37 @@
+# ExNo: 12.A Stack using linked list (Display, Peek and Pop)
+- **Name:** Nikkesh V  
+- **Registration Number:** 212222050042
+### Aim: To Type and display the elements pushed in stack using python.
+
+### Algorithm:
+
+STEP 1: Start.
+
+STEP 2: Create an empty list called stack.
+
+STEP 3: Push elements onto the stack using the append() method.
+
+STEP 4: Print a message indicating the stack after pushing elements.
+
+STEP 5: Display the current contents of the stack.
+
+STEP 6: Stop.
+
+### Program:
+```
+stack = []
+
+stack.append('a')
+stack.append('b')
+stack.append('c')
+
+print("Stack after elements are pushed:")
+print(stack)
+
+
+```
+### OUTPUT:
+
+![image](https://github.com/user-attachments/assets/f3ceaa65-d809-4f0c-9b76-63c92ff6962f)
+
+### Result: Thus, the given program is implemented and executed successfully .
