@@ -1,6 +1,6 @@
+- **Name:** Nikkesh V  
+- **Registration Number:** 212222050042
 # 19CS301-Module12
-### Register No - 212222050042
-### Name - Nikkesh V
 
 # ExNo: 12.1 Stack using linked list (Display, Peek and Pop)
 ### Aim: To Type and display the elements pushed in stack using python.
