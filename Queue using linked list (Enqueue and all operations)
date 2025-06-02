@@ -1,0 +1,41 @@
+
+# ExNo: 12.4 Queue using linked list (Enqueue and all operations)
+
+- **Name:** Nikkesh V  
+- **Registration Number:** 212222050042
+
+### Aim: To Type a python code to insert 3 players in the list. Also check and print the index value of the players in the list.
+
+### Algorithm:
+
+STEP 1: Start.
+
+STEP 2: Create an empty list called queue.
+
+STEP 3: Enqueue three elements (Player_1, Player_2, Player_3) using the append() method.
+
+STEP 4: Print the initial contents of the queue.
+
+STEP 5: Use a for loop with range(len(queue)) to print the index and corresponding element from the queue.
+
+STEP 6: Stop.
+
+### Program:
+```
+queue = []
+
+queue.append('Player_1')
+queue.append('Player_2')
+queue.append('Player_3')
+
+print('Initial queue: ' + str(queue))
+
+for i in range(len(queue)):
+    print(i, end=" ")
+    print(queue[i])
+```
+### OUTPUT:
+
+![image](https://github.com/user-attachments/assets/3d2716d9-678d-483f-a35e-67ec4f55d685)
+
+### Result: Thus, the given program is implemented and executed successfully .
