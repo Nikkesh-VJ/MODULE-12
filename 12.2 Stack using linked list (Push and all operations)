@@ -1,0 +1,43 @@
+# ExNo: 12.2 Stack using linked list (Push and all operations)
+
+- **Name:** Nikkesh V  
+- **Registration Number:** 212222050042
+
+### Aim: To Type a python code to insert 3 elements. Also check and print the index value of the elements stored in the stack.
+
+### Algorithm:
+
+STEP 1: Start.
+
+STEP 2: Create an empty list called stack.
+
+STEP 3: Push three elements onto the stack using the append() method.
+
+STEP 4: Print the initial contents of the stack.
+
+STEP 5: Use a loop to iterate through the stack with enumerate() and print the index and corresponding value.
+
+STEP 6: Stop.
+
+### Program:
+```
+stack = []
+
+# Insert 3 elements
+stack.append('a')
+stack.append('b')
+stack.append('c')
+
+print('Initial stack: ' + str(stack))
+
+# Print index and element
+for index, value in enumerate(stack):
+    print(index, value)
+
+
+```
+### OUTPUT:
+
+![image](https://github.com/user-attachments/assets/8920da3e-a608-4162-a650-73a2feedfed7)
+
+### Result: Thus, the given program is implemented and executed successfully .
